@@ -822,7 +822,7 @@ class GoogleDriveHelper:
         for content in telegraph_content:
             path.append(
                 telegraph.create_page(
-                    title="Mirror-Leech-Bot Drive Search", content=content
+                    title="Bangladesh Hoarding Drive Search", content=content
                 )["path"]
             )
         sleep(0.5)
